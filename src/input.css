@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* ── Tailwind v4 theme configuration (replaces tailwind.config.js) ── */
+@theme {
+  --color-green: #00ff88;
+  --color-cyan: #00d4ff;
+  --color-bg: #0a0a0f;
+  --color-bg2: #0d0d14;
+  --color-bg3: #111118;
+  --color-bg4: #1a1a24;
+
+  --font-mono: "Space Mono", monospace;
+  --font-display: "Syne", sans-serif;
+}
