@@ -14,7 +14,7 @@
     />
 
     <!-- Tailwind postCSS  -->
-    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
 
     <!-- AOS scroll animations -->
     <link
@@ -23,7 +23,7 @@
     />
 
     <!-- Keyframes + things Tailwind can't handle -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body class="bg-bg text-white font-mono overflow-x-hidden">
     <!-- My Navbar  -->
@@ -92,18 +92,18 @@
         <!-- Button -->
         <button
           id="hamburger"
-          class="md:hidden flex flex-col gap-[5px] p-1"
+          class="md:hidden flex flex-col gap-1.25 p-1"
           aria-label="Toggle menu"
           aria-expanded="false"
         >
           <span
-            class="block w-[22px] h-0.5 bg-green rounded transition-all duration-300 origin-center"
+            class="block w-5.5 h-0.5 bg-green rounded transition-all duration-300 origin-center"
           ></span>
           <span
-            class="block w-[22px] h-0.5 bg-green rounded transition-all duration-300"
+            class="block w-5.5 h-0.5 bg-green rounded transition-all duration-300"
           ></span>
           <span
-            class="block w-[22px] h-0.5 bg-green rounded transition-all duration-300 origin-center"
+            class="block w-5.5 h-0.5 bg-green rounded transition-all duration-300 origin-center"
           ></span>
         </button>
       </div>
@@ -199,7 +199,7 @@
               View Projects →
             </a>
             <a
-              href="assets/resume.pdf"
+              href="./resume.pdf"
               download
               class="font-mono text-[11px] text-white/60 border border-white/20 px-5 py-2.5 rounded-sm hover:border-green hover:text-green hover:-translate-y-px transition-all"
             >
@@ -760,7 +760,7 @@
                 class="flex items-center gap-3 font-mono text-[11px] text-white hover:text-green transition-colors"
               >
                 <img
-                  src="../assets/GitHub.png"
+                  src="./public/GitHub.png"
                   alt=""
                   class="w-7 h-7 rounded-full border-1 border-green"
                 />
@@ -773,7 +773,7 @@
                 class="flex items-center gap-3 font-mono text-[11px] text-white hover:text-green transition-colors"
               >
                 <img
-                  src="../assets/Linkedin.png"
+                  src="./public/Linkedin.png"
                   alt=""
                   class="w-7 h-7 rounded-full border-1 border-green"
                 />
@@ -784,7 +784,7 @@
                 class="flex items-center gap-3 font-mono text-[11px] text-white hover:text-green transition-colors"
               >
                 <img
-                  src="../assets/Instagram.avif"
+                  src="./public/Instagram.avif"
                   alt=""
                   class="w-7 h-7 rounded-full border-1 border-green"
                 />
@@ -864,6 +864,6 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
